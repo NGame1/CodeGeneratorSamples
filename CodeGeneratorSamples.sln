@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldGenerator", "HelloWorldGenerator\HelloWorldGenerator\HelloWorldGenerator.csproj", "{B081AA53-D94F-4BCC-AAB5-D85F2EC56975}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldGenerator.Vsix", "HelloWorldGenerator\HelloWorldGenerator.Vsix\HelloWorldGenerator.Vsix.csproj", "{85834872-F958-4A83-AD0B-47F13F6A4521}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldGeneratorTestApp", "HelloWorldGeneratorTestApp\HelloWorldGeneratorTestApp.csproj", "{4856789F-0B6D-4606-B77F-86D73576DCAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Hello World Generator Sample", "01 - Hello World Generator Sample", "{C9EA5BCB-F284-4D56-9C24-17F50B27C6F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - XML To Class Code Generator", "02 - XML To Class Code Generator", "{E0774AEB-408F-4E13-8FCC-9A1112D0DE53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLCodeGenerator", "XMLCodeGenerator\XMLCodeGenerator\XMLCodeGenerator.csproj", "{8159C98A-D3A7-440F-810B-88FB323FFDF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLCodeGenerator.Vsix", "XMLCodeGenerator\XMLCodeGenerator.Vsix\XMLCodeGenerator.Vsix.csproj", "{4ABCF3E3-76F7-4152-ADBC-01158A2A5370}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLCodeGeneratorTestApp", "XMLCodeGeneratorTestApp\XMLCodeGeneratorTestApp.csproj", "{B7FFD9E2-0788-41DD-AFB5-7A9C71A9B2E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Inject Files to XML Code Generator", "03 - Inject Files to XML Code Generator", "{32AA6865-78D2-4D3A-B7D3-F89FE0E1D1A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileInjectionCodeGenerator", "FileInjectionCodeGenerator\FileInjectionCodeGenerator\FileInjectionCodeGenerator.csproj", "{320AE2B5-226F-435F-AC50-A06E96E962FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileInjectionCodeGenerator.Vsix", "FileInjectionCodeGenerator\FileInjectionCodeGenerator.Vsix\FileInjectionCodeGenerator.Vsix.csproj", "{2980EC00-054A-46D3-AEA4-773BE21F46FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileInjectionCodeGeneratorTestApp", "FileInjectionCodeGeneratorTestApp\FileInjectionCodeGeneratorTestApp.csproj", "{B94A518B-0266-4D13-87CE-03CED24B206A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B081AA53-D94F-4BCC-AAB5-D85F2EC56975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B081AA53-D94F-4BCC-AAB5-D85F2EC56975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B081AA53-D94F-4BCC-AAB5-D85F2EC56975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B081AA53-D94F-4BCC-AAB5-D85F2EC56975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85834872-F958-4A83-AD0B-47F13F6A4521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85834872-F958-4A83-AD0B-47F13F6A4521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85834872-F958-4A83-AD0B-47F13F6A4521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85834872-F958-4A83-AD0B-47F13F6A4521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4856789F-0B6D-4606-B77F-86D73576DCAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4856789F-0B6D-4606-B77F-86D73576DCAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4856789F-0B6D-4606-B77F-86D73576DCAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4856789F-0B6D-4606-B77F-86D73576DCAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8159C98A-D3A7-440F-810B-88FB323FFDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8159C98A-D3A7-440F-810B-88FB323FFDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8159C98A-D3A7-440F-810B-88FB323FFDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8159C98A-D3A7-440F-810B-88FB323FFDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABCF3E3-76F7-4152-ADBC-01158A2A5370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABCF3E3-76F7-4152-ADBC-01158A2A5370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABCF3E3-76F7-4152-ADBC-01158A2A5370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABCF3E3-76F7-4152-ADBC-01158A2A5370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7FFD9E2-0788-41DD-AFB5-7A9C71A9B2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FFD9E2-0788-41DD-AFB5-7A9C71A9B2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7FFD9E2-0788-41DD-AFB5-7A9C71A9B2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7FFD9E2-0788-41DD-AFB5-7A9C71A9B2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320AE2B5-226F-435F-AC50-A06E96E962FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320AE2B5-226F-435F-AC50-A06E96E962FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320AE2B5-226F-435F-AC50-A06E96E962FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320AE2B5-226F-435F-AC50-A06E96E962FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2980EC00-054A-46D3-AEA4-773BE21F46FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2980EC00-054A-46D3-AEA4-773BE21F46FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2980EC00-054A-46D3-AEA4-773BE21F46FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2980EC00-054A-46D3-AEA4-773BE21F46FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B94A518B-0266-4D13-87CE-03CED24B206A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94A518B-0266-4D13-87CE-03CED24B206A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94A518B-0266-4D13-87CE-03CED24B206A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94A518B-0266-4D13-87CE-03CED24B206A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B081AA53-D94F-4BCC-AAB5-D85F2EC56975} = {C9EA5BCB-F284-4D56-9C24-17F50B27C6F7}
+		{85834872-F958-4A83-AD0B-47F13F6A4521} = {C9EA5BCB-F284-4D56-9C24-17F50B27C6F7}
+		{4856789F-0B6D-4606-B77F-86D73576DCAE} = {C9EA5BCB-F284-4D56-9C24-17F50B27C6F7}
+		{8159C98A-D3A7-440F-810B-88FB323FFDF0} = {E0774AEB-408F-4E13-8FCC-9A1112D0DE53}
+		{4ABCF3E3-76F7-4152-ADBC-01158A2A5370} = {E0774AEB-408F-4E13-8FCC-9A1112D0DE53}
+		{B7FFD9E2-0788-41DD-AFB5-7A9C71A9B2E4} = {E0774AEB-408F-4E13-8FCC-9A1112D0DE53}
+		{320AE2B5-226F-435F-AC50-A06E96E962FB} = {32AA6865-78D2-4D3A-B7D3-F89FE0E1D1A9}
+		{2980EC00-054A-46D3-AEA4-773BE21F46FE} = {32AA6865-78D2-4D3A-B7D3-F89FE0E1D1A9}
+		{B94A518B-0266-4D13-87CE-03CED24B206A} = {32AA6865-78D2-4D3A-B7D3-F89FE0E1D1A9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AF54CFB-8B1C-496C-B206-BEE107784386}
+	EndGlobalSection
+EndGlobal

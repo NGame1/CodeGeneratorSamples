@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<Import Project="..\FileInjectionCodeGenerator\FileInjectionCodeGenerator\FileInjectionCodeGenerator.Build.props" />
+	<ItemGroup>
+	  <None Remove="ContentXMLFile.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="ContentXMLFile.xml" />
+		<Resource Include="ResourceXMLFile.xml" />
+	</ItemGroup>
+
+	<!--Add reference to code generator project-->
+	<ItemGroup>
+		<ProjectReference Include="..\FileInjectionCodeGenerator\FileInjectionCodeGenerator\FileInjectionCodeGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+	</ItemGroup>
+
+</Project>

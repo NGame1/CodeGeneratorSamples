@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+	
+	<Message name="HelloWorld">
+		<Value>This is a Hello World read using automatic code generator from ResourceXMLFile File</Value>
+	</Message>
+
+	<Message name="HelloWorldInPersian">
+		<Value>In yek matne Hello world ast ke be vaseteye khande shodan tavassote code generator az yek file ResourceXMLFile be dast amade ast!</Value>
+	</Message>
+	
+</root>

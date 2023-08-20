@@ -1,0 +1,15 @@
+<Project>
+	<Target Name="_InjectAdditionalFiles" BeforeTargets="GenerateMSBuildEditorConfigFileShouldRun">
+		<ItemGroup>
+			
+			<!-- Injecting files with build action type : Content -->
+			<AdditionalFiles Include="@(Content)" SourceItemGroup="Content" />
+			
+			<!-- Injecting files with build action type : Resource -->
+			<AdditionalFiles Include="@(Resource)" SourceItemGroup="Resource" />
+			
+			<!-- You can comment any of the items above to include / exclude the build action type files -->
+		</ItemGroup>
+	</Target>
+	
+</Project>
