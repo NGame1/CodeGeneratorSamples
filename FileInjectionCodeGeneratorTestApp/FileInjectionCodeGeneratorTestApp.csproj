@@ -6,7 +6,10 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
+	
+	<!-- To enable code generator access our project files we need to add a reference to the build.props file. -->
 	<Import Project="..\FileInjectionCodeGenerator\FileInjectionCodeGenerator\FileInjectionCodeGenerator.Build.props" />
+
 	<ItemGroup>
 	  <None Remove="ContentXMLFile.xml" />
 	</ItemGroup>

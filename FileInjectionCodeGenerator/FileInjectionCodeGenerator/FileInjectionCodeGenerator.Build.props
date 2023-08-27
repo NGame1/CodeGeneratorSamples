@@ -9,6 +9,7 @@
 			<AdditionalFiles Include="@(Resource)" SourceItemGroup="Resource" />
 			
 			<!-- You can comment any of the items above to include / exclude the build action type files -->
+			<!--<AdditionalFiles Include="@(None)" SourceItemGroup="None" />-->
 		</ItemGroup>
 	</Target>
 	
