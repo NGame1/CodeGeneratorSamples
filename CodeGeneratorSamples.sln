@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33927.289
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldGenerator", "HelloWorldGenerator\HelloWorldGenerator\HelloWorldGenerator.csproj", "{B081AA53-D94F-4BCC-AAB5-D85F2EC56975}"
 EndProject
@@ -26,6 +26,14 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileInjectionCodeGenerator.Vsix", "FileInjectionCodeGenerator\FileInjectionCodeGenerator.Vsix\FileInjectionCodeGenerator.Vsix.csproj", "{2980EC00-054A-46D3-AEA4-773BE21F46FE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileInjectionCodeGeneratorTestApp", "FileInjectionCodeGeneratorTestApp\FileInjectionCodeGeneratorTestApp.csproj", "{B94A518B-0266-4D13-87CE-03CED24B206A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Compiled Files Code Generator", "04 - Compiled Files Code Generator", "{8EC9EF7E-C641-4B99-A209-1EE448314759}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompiledFilesCodeGenerator", "CompiledFilesCodeGenerator\CompiledFilesCodeGenerator\CompiledFilesCodeGenerator.csproj", "{60276785-A864-4F8E-AB76-25E97BBC3FB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompiledFilesCodeGenerator.Vsix", "CompiledFilesCodeGenerator\CompiledFilesCodeGenerator.Vsix\CompiledFilesCodeGenerator.Vsix.csproj", "{1D3AF28D-D237-42BD-871A-0A8BAD40141D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompiledFilesCodeGeneratorTestApp", "CompiledFilesCodeGeneratorTestApp\CompiledFilesCodeGeneratorTestApp.csproj", "{F00AA08B-1F70-4FCB-87B7-6ED5D0FF9862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +77,18 @@ Global
 		{B94A518B-0266-4D13-87CE-03CED24B206A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B94A518B-0266-4D13-87CE-03CED24B206A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B94A518B-0266-4D13-87CE-03CED24B206A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60276785-A864-4F8E-AB76-25E97BBC3FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60276785-A864-4F8E-AB76-25E97BBC3FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60276785-A864-4F8E-AB76-25E97BBC3FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60276785-A864-4F8E-AB76-25E97BBC3FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D3AF28D-D237-42BD-871A-0A8BAD40141D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3AF28D-D237-42BD-871A-0A8BAD40141D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3AF28D-D237-42BD-871A-0A8BAD40141D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3AF28D-D237-42BD-871A-0A8BAD40141D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00AA08B-1F70-4FCB-87B7-6ED5D0FF9862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00AA08B-1F70-4FCB-87B7-6ED5D0FF9862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00AA08B-1F70-4FCB-87B7-6ED5D0FF9862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00AA08B-1F70-4FCB-87B7-6ED5D0FF9862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +103,9 @@ Global
 		{320AE2B5-226F-435F-AC50-A06E96E962FB} = {32AA6865-78D2-4D3A-B7D3-F89FE0E1D1A9}
 		{2980EC00-054A-46D3-AEA4-773BE21F46FE} = {32AA6865-78D2-4D3A-B7D3-F89FE0E1D1A9}
 		{B94A518B-0266-4D13-87CE-03CED24B206A} = {32AA6865-78D2-4D3A-B7D3-F89FE0E1D1A9}
+		{60276785-A864-4F8E-AB76-25E97BBC3FB6} = {8EC9EF7E-C641-4B99-A209-1EE448314759}
+		{1D3AF28D-D237-42BD-871A-0A8BAD40141D} = {8EC9EF7E-C641-4B99-A209-1EE448314759}
+		{F00AA08B-1F70-4FCB-87B7-6ED5D0FF9862} = {8EC9EF7E-C641-4B99-A209-1EE448314759}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6AF54CFB-8B1C-496C-B206-BEE107784386}
